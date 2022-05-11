@@ -91,7 +91,7 @@ list = recommend(query_index)
 
 book_list = []
 st.header('Book Recommender System')
-for i in range(1, 2442):
+for i in range(1, 50):
     book_list.append(us_canada_user_rating_pivot.index[i])
 
 selected_movie = st.selectbox(
